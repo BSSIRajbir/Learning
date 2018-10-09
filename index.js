@@ -9,5 +9,5 @@ res.end('Hello ${process.plateform}');
 var server = http.createServer(requestHandler);
 
 server.listen(PORT, function(){
-console.log('${process.env.NODE_ENV} server listening on port: ${PORT}, CTRL-C to exit.");
+console.log('${process.env.NODE_ENV} server listening on port: ${PORT}, CTRL-C to exit.');
 });
