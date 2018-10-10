@@ -4,6 +4,7 @@ const PORT = 8080;
 
 function requestHandler(req, res){
 res.end('Hello ${process.plateform}');
+  console.log('Request to the Handler is completed');
 }
 
 var server = http.createServer(requestHandler);
